@@ -10,6 +10,6 @@ public class DragAndDropTest extends BaseTest {
         driver.get("https://testpages.herokuapp.com/styled/drag-drop-javascript.html");
         DragAndDropPage drop = new DragAndDropPage(driver);
         drop.dragTo();
-//        drop.dragToXAndY(125, 250);
+        drop.dragToXAndY(125, 250);
     }
 }
